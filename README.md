@@ -28,7 +28,7 @@ mkdir build
 cd build
 cmake ..
 make
-
+```
 This will create the DualNetMsg executable.
 
 ## Usage
@@ -36,5 +36,5 @@ To run the program, use the following command:
 
 ```bash
 ./DualNetMsg <serial_port_1> <serial_port_2>
-
+```
 The program will then ask you to enter messages to send to both ports. Received messages will be shown in the terminal.
